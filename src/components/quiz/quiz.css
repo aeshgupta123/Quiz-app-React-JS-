@@ -1,0 +1,73 @@
+
+ .quiz{
+    display: flex;
+    background-color: gray;
+    height: 100vh;
+}
+
+.main1{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    height: 25%;
+    display: flex;
+    position: relative;
+}
+.nameOfCand{
+    display: flex;
+    position: absolute;
+    left:10px;
+    top:50px
+}
+.timer{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border:5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top:50px;
+    bottom:20px;
+    right: 10px;
+    color:white;
+    background-color: blue;
+}
+
+.bottom{
+    height:75%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main2{
+    height: 100%;
+    width:25%;
+    position: relative;
+}
+.questionList{
+    position: absolute;
+    top:80px;
+    left:50px;
+}
+.questionListItem{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    border:2px solid black;
+    height:5%;
+    width:150%;
+    text-align: center;
+}
+
+.questionListItem.active{
+    background-color: blue;
+} 
